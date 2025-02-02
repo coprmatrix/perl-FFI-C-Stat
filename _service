@@ -1,0 +1,5 @@
+<services>
+  <service name="cpanspec" mode="disabled">
+    <param name="source">FFI::C-Stat</param>
+  </service>
+</services>
