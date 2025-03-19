@@ -1,5 +1,7 @@
 <services>
   <service name="cpanspec" mode="manual">
     <param name="source">FFI::C::Stat</param>
+    <param name="add-buildrequires">make</param>
+    <param name="add-buildrequires">gcc</param>
   </service>
 </services>
